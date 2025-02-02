@@ -5,6 +5,7 @@ function argumentsLength(...args: JSONValue[]): number {
     for (let i = 0; i < args.length; i++){
         count++
     }
+    //could also use args.length instead of using loop
     return count
 };
 
